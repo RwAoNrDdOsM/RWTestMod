@@ -1,0 +1,11 @@
+mod = [
+	"RWTestMod"
+]
+
+package = [
+	"resource_packages/RWTestMod/RWTestMod"
+]
+
+lua = [
+	"scripts/mods/RWTestMod/*"
+]
