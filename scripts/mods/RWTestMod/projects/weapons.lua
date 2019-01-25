@@ -1,4 +1,4 @@
-local mod = get_mod("RWTestMod")
+--[[local mod = get_mod("RWTestMod")
 mod.more_items_library = get_mod("MoreItemsLibrary")
 
 -- Item Master List Weapon
