@@ -15,7 +15,7 @@ if start_dodge then
     return
 end]]
 
-mod:hook_origin(PlayerCharacterStateFalling, "update", function (self, unit, input, dt, context, t)
+--[[mod:hook_origin(PlayerCharacterStateFalling, "update", function (self, unit, input, dt, context, t)
 	local world = self.world
 	local locomotion_extension = self.locomotion_extension
 	local first_person_extension = self.first_person_extension
@@ -302,4 +302,4 @@ mod:hook_origin(PlayerCharacterStateJumping, "update", function (self, unit, inp
 
 		return
 	end
-end)
+end)]]
